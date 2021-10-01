@@ -1,0 +1,12 @@
+footer {
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    color: grey;
+    text-align: center;
+}
+
+footer h6 {
+    padding: 20px;
+    letter-spacing: 3px
+}

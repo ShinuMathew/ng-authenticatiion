@@ -1,0 +1,41 @@
+.common-header {
+    width: 100vw;
+    height: 10vh;
+    background-color:rgba(0, 117, 195, 0.856);  
+    color: rgb(255, 255, 255)  
+}
+
+.common-header  nav {
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-links {
+    width: 20vw;
+    height: 10vh;
+}
+
+.nav-links ul {
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-links ul li {
+    list-style: none;    
+    padding: 25px;
+}
+
+.nav-links ul li a {
+    text-decoration: none; 
+    color: white;
+    font-size: larger;    
+}
+
+.nav-links ul li a:hover {
+    color: rgb(65, 41, 5);
+    transition: 0.5s linear;
+}

@@ -1,0 +1,43 @@
+<div class="container home-banner">
+  <ngb-carousel *ngIf="images">
+    <ng-template ngbSlide>
+      <div class="overlay-img">
+        <img [src]="images[0]" alt="Random first slide" width="100%" />
+        <div class="picsum-img-wrapper">
+          <img [src]="images[0]" alt="Random first slide" width="100%" />        
+        </div>
+        <div class="carousel-caption">
+          <h3>Bridge walk</h3>
+          <p>Beautifull bridge walking experience above the lakes of Amsterdam</p>
+        </div>
+      </div>
+      
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="overlay-img">
+        <img [src]="images[1]" alt="Random second slide" width="100%" />
+        <div class="picsum-img-wrapper">
+          <img [src]="images[1]" alt="Random second slide" width="100%" />
+        </div>
+        <div class="carousel-caption">
+          <h3>Boat riding</h3>
+          <p>Peacefull boat riding amidst the lakes of Amsterdam</p>
+        </div>
+      </div>
+      
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="overlay-img">
+        <img [src]="images[2]" alt="Random third slide" width="100%" />
+        <div class="picsum-img-wrapper">
+          <img [src]="images[2]" alt="Random third slide" width="100%" />
+        </div>
+        <div class="carousel-caption">
+          <h3>Alps Hillstation</h3>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+      </div>
+      
+    </ng-template>
+  </ngb-carousel>
+</div>

@@ -1,0 +1,22 @@
+.home-banner {
+  height: 80vh;
+  margin-top: 20px
+}
+
+.overlay-img {
+  position: relative;
+}
+
+.overlay-img>img {
+  filter: blur(10px);
+  opacity: 0.5;
+}
+
+.picsum-img-wrapper {
+  position: absolute;
+  z-index: 999;  
+  margin-left: auto;
+  margin-right: auto;
+  top: 15%;
+  left: 15%;
+}
